@@ -1,0 +1,107 @@
+body {
+    background-color: #f5f5f5;
+  }
+  .sidebar {
+    background-color: #0a2a53;
+    min-height: 100vh;
+    color: white;
+  }
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+  }
+  .sidebar a:hover {
+    background-color: #183f73;
+  }
+  .active {
+    background-color: #0f3e74;
+  }
+  .content {
+    padding: 20px;
+  }
+  .card-box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  .setting-list i {
+    margin-right: 10px;
+  }
+  button:disabled {
+    background-color: #ccc !important;
+  }
+  .sidebar input.form-control {
+    background-color: #0a2a53;
+    color: white;
+    border: 1px solid #ffffff55;
+    border-radius: 6px;
+  }
+  .sidebar input::placeholder {
+    color: #ccc;
+  }
+  .sidebar input {
+width: calc(100% - 40px); /* 20px padding hai bên */
+margin: 0 20px 15px;
+border-radius: 6px;
+}
+
+a {
+color: black;
+text-decoration: none;
+}
+a:hover {
+color: yourHoverColor;
+}
+.main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .topbar .left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .topbar .update-btn {
+    background: #b0f5c3;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .topbar .avatar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .content {
+    display: flex;
+    padding: 20px;
+    overflow: auto;
+  }
+
+  .main {
+    flex: 1;
+  }
+
+  .main h2 {
+    font-size: 26px;
+    margin-bottom: 16px;
+  }

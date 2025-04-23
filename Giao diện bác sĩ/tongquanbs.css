@@ -1,0 +1,101 @@
+body {
+  background-color: #f5f5f5;
+}
+.sidebar {
+  background-color: #0a2a53;
+  min-height: 100vh;
+  color: white;
+}
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+}
+.sidebar a:hover {
+  background-color: #183f73;
+}
+.active {
+  background-color: #0f3e74;
+}
+.content {
+  padding: 20px;
+}
+.card-box {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.card-small {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+.card-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.status-paid {
+  color: white;
+  background-color: #28a745;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+canvas {
+  width: 100% !important;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Custom search bar style */
+.custom-search {
+  background-color: #08254b;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+.custom-search::placeholder {
+  color: #cccccc;
+}
+.custom-search:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.topbar .left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.topbar .update-btn {
+  background: #b0f5c3;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.topbar .avatar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

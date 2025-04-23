@@ -1,0 +1,135 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    background-color: #0a2a53;
+    min-height: 100vh;
+    color: white;
+}
+
+.sidebar h4 {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.sidebar a:hover,
+.active {
+    background-color: #183f73;
+}
+
+.content {
+    padding: 20px;
+}
+
+.header {
+    background-color: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-left h4 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.header-right .bi-bell-fill { /* Стиль cho icon chuông */
+    color: #ffc107; /* Màu vàng */
+    margin-left: 15px;
+    font-size: 1.2em; /* Điều chỉnh kích thước nếu cần */
+}
+
+.header-right button {
+    background-color: #198754; /* Màu xanh lá cây tương tự */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.header-right span {
+    margin-left: 10px;
+}
+
+.info-box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.info-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.form-label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.table-box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.table-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.table th, .table td {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/* Custom search bar style */
+.custom-search {
+    background-color: #08254b;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+.custom-search::placeholder {
+    color: #cccccc;
+}
+
+.custom-search:focus {
+    outline: none;
+    box-shadow: none;
+}
